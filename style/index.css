@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -65,7 +65,31 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header{
+    margin: .5rem;
+}
 
+nav{
+    display:flex;
+    
+    padding: .1rem;
+    margin-top: 1rem;
+
+
+}
+nav img{
+   padding-bottom: 1rem;
+
+}
+
+nav a{
+    
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left: 4rem;
+    
+
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +136,8 @@ p {
     justify-content: center;
 }
 
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +170,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
