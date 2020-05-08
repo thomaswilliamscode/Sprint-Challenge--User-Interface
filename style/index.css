@@ -71,7 +71,8 @@ header{
 
 nav{
     display:flex;
-    
+    flex-direction: column;
+    align-items: center;
     padding: .1rem;
     margin-top: 1rem;
 
@@ -91,7 +92,7 @@ nav a{
 
 }
 .jumbo{
-    flex-basis;20%;
+    flex-basis:20%;
 }
 .container {
     width: 800px;
@@ -225,5 +226,127 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
+.middle-content .boxes .box {
+    width: 15%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.top-content {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-left: 20%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 
+}
+.top-content .text-container {
+    width: 60%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+@media(max-width:500px){
+    .jumbo{
+        max-width: 91%;
+        margin-left: 5%;
+    
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.middle-content .boxes .box {
+    width: 15%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    padding: .1rem;
+    margin-top: 1rem;
+
+
+}
+nav a{
+    
+    font-size: 1rem;
+    text-decoration: none;
+    padding: .3rem;
+    margin-left: 2rem;
+    
+
+}
+nav img{
+    width: 20%;
+}
+footer {
+    width: 80%;
+    background: black;
+    
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    margin-left: 20%;
+    font-size: 1.4rem;
+}
+.middle-content .boxes{
+    flex-direction: column;
+    align-items: center;
+
+}
+.middle-content .boxes .box {
+    width: 15%;
+    height: 60px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.top-content {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-left: 20%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+}
+.top-content .text-container {
+    width: 60%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2% 20%;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
 }
