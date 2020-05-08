@@ -178,14 +178,17 @@ footer nav a {
 @media(max-width:800px){
     .jumbo{
         max-width: 91%;
-    
+        margin-left: 5%;
 }
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
+.box{
+    width: 50%;
+}
 .middle-content .boxes .box {
-    width: 15%;
+    width: 80%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -207,6 +210,7 @@ nav a{
     font-size: 1rem;
     text-decoration: none;
     margin-left: 2rem;
+    padding: .2rem;
     
 
 }
